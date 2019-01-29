@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>ASHauptLLC</title>
+  </head>
+  <body>
+    <h1>ASH Bank</h1>
+    <div class="container">
+      <div id="home">
+        <div id="signup">
+          <form id="signup-form">
+            <input type="text" id="signUpUsername" value="" placeholder="username">
+            <input type="text" id="signUpFirstName" value="" placeholder="first name">
+            <input type="text" id="signUpLastName" value="" placeholder="last name">
+            <input type="text" id="signUpAddress" value="" placeholder="address">
+            <input type="text" id="signUpPhone" value="" placeholder="phone">
+            <input type="text" id="signUpSsn" value="" placeholder="ssn">
+            <button type="submit" name="button">Sign Up</button>
+          </form>
+        </div>
+        <div id="userNameError">
+          <p></p>
+        </div>
+        <div id="signin">
+          <form id="signin-form">
+            <input type="text" id="signInUsername" value="" placeholder="username">
+            <button type="submit" name="button">Login</button>
+          </form>
+        </div>
+      </div>
+      <div id="dashboard">
+        <h1>Savings</h1>
+        <p id="savings"></p>
+        <h1>Checking</h1>
+        <p id="checking"></p>
+      </div>
+    </div>
+  </body>
+</html>
